@@ -1,27 +1,25 @@
-# Spatial Assessment of Push-Pull Technology (PPT) in Malawi
+# 🌱 Spatial Assessment of Push-Pull Technology (PPT) in Malawi
 
 [![R](https://www.r-project.org/logo/Rlogo.png)](https://www.r-project.org/)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/YourUsername)  
 
-**Quinto Juma Meltus*, Elfatih Abdel-Rahman, Komi Agboka Mensah, Rachel Awuor Owino, Takemore Chagomoka, and Thomas Dubois**  
-International Centre of Insect Physiology and Ecology ([icipe](https://www.icipe.org/)), Nairobi, Kenya  
+**Authors:** Quinto Juma Meltus*, Elfatih Abdel-Rahman, Komi Agboka Mensah, Rachel Awuor Owino, Takemore Chagomoka, Thomas Dubois  
+**Institution:** International Centre of Insect Physiology and Ecology ([icipe](https://www.icipe.org/)), Nairobi, Kenya  
 *Corresponding author: [jmeltus@icipe.org](mailto:jmeltus@icipe.org)*  
 
 ---
 
-## Overview
+## 📖 Overview
 
-This repository contains **R scripts** for evaluating the suitability of conventional (1st generation) and climate-smart (2nd generation) Push-Pull Technology (PPT) for maize pest management in Malawi using a **spatial species distribution modeling framework**.  
+This repository contains **R scripts** for evaluating **conventional (1st generation) and climate-smart (2nd generation) PPT** for maize pest management in Malawi using a **species distribution modeling (SDM) + MaxEnt framework**.  
 
-The workflow integrates:
+Workflow integrates:  
 
-1. **Species occurrence data acquisition** – Downloading global occurrence records from GBIF (e.g., stemborers, fall armyworm, and companion crops such as *Desmodium spp.*).  
-2. **Species Distribution Modeling (SDM)** – Using the `sdm` R package and MaxEnt algorithm to predict environmental suitability for maize pests and PPT companion plants.  
-3. **Validation with PPT demonstration plots** – Using georeferenced field data (104 sites across Malawi) to assess predictive performance.  
-4. **Raster preprocessing** – Cropping, masking, and resampling environmental predictors (climatic, edaphic, and landscape variables) to Malawi-specific grids.  
-
-
-This framework supports strategic prioritization of PPT adoption in Malawi and broader SSA.
+- 🌍 **Species occurrence data acquisition:** Download pest and companion crop occurrences from GBIF  
+- 🌿 **Species Distribution Modeling:** MaxEnt using `sdm` package  
+- 📊 **Validation:** 104 georeferenced PPT demonstration plots in Malawi  
+- 🗺️ **Raster preprocessing:** Cropping, masking, resampling environmental predictors (climatic, edaphic, landscape)
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
