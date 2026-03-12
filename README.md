@@ -11,7 +11,7 @@
 
 ## 📖 Overview
 
-This repository contains **R scripts** for evaluating **conventional (1st generation) and climate-smart (2nd generation) PPT** for maize pest management in Malawi using a **species distribution modeling (SDM) + MaxEnt framework**.  
+This repository contains **R scripts** used to provide suitability layers for the evaluation of **conventional (1st generation) and climate-smart (2nd generation) PPT** for maize pest management in Malawi using a **species distribution modeling (SDM)-MaxEnt framework**.  
 
 Workflow integrates:  
 
